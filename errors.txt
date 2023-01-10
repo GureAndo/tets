@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/menu.rpy", line 26: end of line expected.
+    "je meurt": if boucl1 == 0 :
+                ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Tue Jan 10 22:18:13 2023

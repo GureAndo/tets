@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/menu.rpy", line 22, in script
+    menu boucle2 :
+  File "game/menu.rpy", line 34, in <module>
+    "tu meurt" if boucle1 == 1 :
+NameError: name 'boucle1' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/menu.rpy", line 22, in script
+    menu boucle2 :
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 1903, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\exports.py", line 976, in menu
+    condition = renpy.python.py_eval(condition)
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\renpy\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/menu.rpy", line 34, in <module>
+    "tu meurt" if boucle1 == 1 :
+NameError: name 'boucle1' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+tets 1.0
+Tue Jan 10 22:12:02 2023
